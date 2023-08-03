@@ -4,56 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>password generator</title>
 </head>
 <body>
-    <div class="container">
-        <div class="text">
-            <input type="text" id="text" placeholder="0" >
-            <p>numerito</p>
-        </div>
-        <div class="fila0">
-            <input type="button" value="sqrt">
-            <input type="button" value="^">
-            <input type="button" value="x2">
-            <input type="button" value="/">
-        </div>
-        <div class="fila1">
-            <input type="button" value="CE">
-            <input type="button" value="C">
-            <input type="button" value="D">
-            <input type="button" value="/">
-        </div>
-        <div class="fila2">
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="X">
-        </div>
-        <div class="fila3">
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="-">
-        </div>
-        <div class="fila4">
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3">
-            <input type="button" value="+">
-        </div>
-        <div class="fila5">
-            <input type="button" value="+/-">
-            <input type="button" value="0">
-            <input type="button" value=".">
-            <input type="button" value="=">
-        </div>
-        
-    </div>
-    <div class="historial">
-        <h1>History</h1>
-    </div>
-    
-    <script src="script.js"></script>
+    <form>
+        <label>Escriba el tamanio de la contrasenia</label>
+        <input type="number" min="1" max="24" id="textBox">
+        <input type="submit" value="generar" id="button">
+        <p>La contrasena va aqui: <p id="p"></p></p>
+    </form>
+    <script src="script.js"></script>     
 </body>
 </html>
