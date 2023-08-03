@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+}
+
+.container .fila0, .fila1, .fila2, .fila3, .fila4, .fila5{
+    background-color: #999;
+    padding:  4px;
+}
+
+.text{
+    background: red;
+    text-align: center;
+}
+
+.historial{
+    margin: 20px 35%;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+
+
+input[type="text"]{
+    width: 200px;
+    padding: 10px 20px; 
+    margin: 30px;
+    
+}
+input[type="button"]{
+    background-color: dodgerblue;
+    padding: 15px 25px;
+    width: 50px;
+    margin: 4px 4px;
+    
+}
+p{
+    background-color: #fff;
+}
