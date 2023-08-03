@@ -1,4 +1,4 @@
-this.addEventListener('submit', e => {
+window.addEventListener('submit', e => {
     e.preventDefault();
     const p = document.getElementById('p')
     p.innerHTML = ""
